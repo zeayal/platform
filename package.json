@@ -1,0 +1,10 @@
+{
+  "name": "@tms/platform",
+  "version": "0.0.1",
+  "description": "平台事业部通用组件",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
