@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "declarationDir": "lib",
+        "declaration": true,
+        "isolatedModules": false,
+        "emitDeclarationOnly": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.test.ts"]
+}
