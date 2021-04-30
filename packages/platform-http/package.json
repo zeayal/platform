@@ -1,0 +1,36 @@
+{
+  "name": "@tms/platform-http",
+  "version": "0.0.1-alpha",
+  "description": "通用请求库",
+  "author": "刘紫阳 <ziyang.liu@mobilemd.cn>",
+  "homepage": "https://github.com/zeayal/platform#readme",
+  "license": "ISC",
+  "main": "lib/platform-http.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeayal/platform.git"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/zeayal/platform/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "rollup": "^2.46.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}

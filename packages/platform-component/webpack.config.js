@@ -2,16 +2,17 @@ const path = require("path");
 
 module.exports = {
   mode: "production",
+  devtool: 'source-map',
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "lib"),
     library: {
-      type: "module"
+      type: "module",
     },
     filename: "index.js",
   },
   experiments: {
-    outputModule: true
+    outputModule: true,
   },
   module: {
     rules: [
@@ -28,12 +29,12 @@ module.exports = {
                 "@babel/preset-typescript",
               ],
             },
-          }
+          },
         ],
       },
     ],
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"],
+    extensions: ["", ".ts", ".tsx", ".js", ".jsx"],
   },
 };

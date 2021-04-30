@@ -1,5 +1,1 @@
-import Notice from "./Notice";
-
-export {
-  Notice
-};
+export * as Notice from "./component/Notice";

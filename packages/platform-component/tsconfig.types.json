@@ -5,7 +5,5 @@
         "declaration": true,
         "isolatedModules": false,
         "emitDeclarationOnly": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["**/*.test.ts"]
+    }
 }
